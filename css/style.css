@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background: #9a989b;
+	font-family: sans-serif;
+}
+.header{
+	padding: 0.4em;
+	width: 100%;
+	height: 80px;
+	background: #a912e5;
+}
+.container{
+	width: 960px;
+	height: 1600px;
+	margin: 0 auto;
+	background: #eae6ed;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+#logo{
+	float: left;
+	padding-left: 300px;
+}
+
+#main-navigation{
+	float: right;
+	padding-right: 350px;
+	padding-top: 20px;
+	font-size: 1.5em;
+}
+#main-navigation a{
+	margin-left: 1em;
+	text-decoration: none;
+}
+#main-navigation a:hover{
+	color: black;
+	text-decoration: underline;
+}
+#About{
+	padding: 30px;
+	background: #d5d0d8;
+	
+}
+#About p{
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5em;
+}
+/*#Portfolio{
+	border-bottom: 1px solid black;
+} */
+.Portfolio-text{
+	text-align: center;
+	padding-top: 50px;
+}
+.row{
+	padding: 20px;
+}
+.one-third{
+	width: 300px;
+	padding: 0 15px 0 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+.half{
+	width: 450px;
+	padding: 0 30px 0 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+img{
+	width: 100%
+}
+.contact-text{
+	text-align: center;
+	padding-top: 50px;
+}
+label {
+  	font : 1.5em sans-serif;
+}
+input, textarea {
+    font    : .9em/1.5em sans-serif;
+    border  : 1px solid black;
+    padding : 10px;
+    margin  : 10px;
+    width   : 100%;
+}
+input:focus, textarea:focus {
+    background   : rgba(0,0,0,.1);
+    border-radius: 5px;
+    outline      : none;
+}
+button {
+    padding      : 5px;
+    font         : bold 1.5em sans-serif;
+    border       : 2px solid #333;
+    border-radius: 5px;
+    background   : none;
+    cursor       : pointer;
+}
+.contact-content{
+	padding-top: 30px;
+}
+.contact-content p{
+	font-size: 2em;
+}
+.main-footer{
+	height: 80px;
+	background: #a912e5;
+	margin: 0 auto;
+}
+.main-footer>.footer-content{
+	text-align: center;
+	padding: 2em;
+}
